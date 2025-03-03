@@ -1,0 +1,3 @@
+/home/zebra/cpp/Hello-World/CMakeFiles/Hello-World.dir
+/home/zebra/cpp/Hello-World/CMakeFiles/edit_cache.dir
+/home/zebra/cpp/Hello-World/CMakeFiles/rebuild_cache.dir
