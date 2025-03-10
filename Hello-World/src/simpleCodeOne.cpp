@@ -1,10 +1,7 @@
 #include <iostream>
-using namespace std;
-// #include "Log.h"
+#include "../HeaderFiles/Log.h"
 
-void Log(const char* message) {
-    cout << message << endl;
-}
+using namespace std;
 
 int main() {
     Log("Hello-World");
