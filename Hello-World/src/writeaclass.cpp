@@ -17,23 +17,25 @@ class Log{
 
         void Error(const char* message){
             if(m_LogLevel >= LogLeverError)
-                cout << "[ERROR] " << message << endl;
+                cout << "[ERROR]: " << message << endl;
         }
 
         void Warn(const char* message){
             if(m_LogLevel >= LogLevelWarning)
-                cout << "[WARNING] " << message << endl;
+                cout << "[WARNING]: " << message << endl;
         }
 
         void Info(const char* message){
             if(m_LogLevel >= LogLevelInfo)
-                cout << "[INFO] " << message << endl;
+                cout << "[INFO]: " << message << endl;
         }
 }; 
 
 int main(){
     Log log;
     log.SetLevel(log.LogLevelWarning);
-    log.Warn("Hello");
+    log.Warn("Hello!");
+    log.Error("Hello!");
+    log.Info("Hello!");
 
 }
